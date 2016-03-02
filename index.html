@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Derik</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
     <link rel='stylesheet' href='main.css'>
   </head>
   <body>
@@ -12,82 +13,104 @@
       <h2>Developer / Writer / Speaker</h2>
     </header>
     <main>
-      <section class="box1">
-        <h3 class="links">Links</h2>
+      <section class="box1" class="col-md-12">
+        <div class="links col-lg-5 col-md-5 col-sm-12 col-xs-12">
+          <h3>Links</h3>
           <ul>
             <li><a href="mailto:dlinch33@gmail.com">Email</a></li>
             <li><a href="tel:3037255837">303.725.5837</a></li>
-            <li><a href="https://github.com/dlinch">Github</a></li>
-            <li><a href="https://www.linkedin.com/in/deriklinch">LinkedIn</a></li>
-            <li><a href="https://medium.com/@dlinch17">Personal Blog</a></li>
-            <li><a href="http://reasonabout.co/">Blog Contributor</a></li>
-            <li><a href="https://teamtreehouse.com/deriklinch">Treehouse</a></li>
+            <li><a target="_blank" href="https://github.com/dlinch">Github</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/deriklinch">LinkedIn</a></li>
+            <li><a target="_blank" href="https://medium.com/@dlinch17">Personal Blog</a></li>
+            <li><a target="_blank" href="http://reasonabout.co/">Blog Contributor</a></li>
+            <li><a target="_blank" href="https://teamtreehouse.com/deriklinch">Treehouse</a></li>
           </ul>
-        <h3 class="skills">Skills</h2>
-          <h4>Proficient</h4>
-          <ul>
-            <li>JavaScript</li>
-            <li>JQuery</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>AJAX/HTTP</li>
-            <li>AngularJS</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>RESTful APIs</li>
-            <li>PostgreSQL</li>
-            <li>SQL</li>
-            <li>Knex.js</li>
-            <li>MongoDB</li>
-            <li>Data Modeling</li>
-            <li>Git</li>
-            <li>Public Speaking</li>
-            <li>SendBloom</li>
-          </ul>
-
-          <h4>Working Knowledge</h4>
-          <ul>
-            <li>SASS</li>
-            <li>OAuth</li>
-            <li>Java</li>
-            <li>Local Auth</li>
-            <li>Socket.io</li>
-            <li>Bootstrap</li>
-          </ul>
-
-          <h4>Novice</h4>
-            <ul>
-              <li>Raspberry Pi</li>
-              <li>Python</li>
-              <li>Flask</li>
-              <li>Swift</li>
-              <li>Curl</li>
-              <li></li>
-            </ul>
-
-          <h4>Future</h4>
-            <ul>
-              <li>Python Deep Dive</li>
-              <li>UX/UI Deep Dive</li>
-              <li>Spring</li>
-              <li>Unity</li>
-              <li>PHP</li>
-              <li>Ruby On Rails</li>
-              <li>Djano</li>
-            </ul>
-
+        </div>
+        <div class="skills col-md-7 col-lg-7 col-xs-12 col-sm-12">
+          <h3>Skills</h3>
+          <div class="">
+            <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+              <h4>Proficient</h4>
+              <ul>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>AJAX/HTTP</li>
+                <li>AngularJS</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>RESTful APIs</li>
+                <li>PostgreSQL</li>
+                <li>SQL</li>
+                <li>Knex.js</li>
+                <li>MongoDB</li>
+                <li>Data Modeling</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+              <h4>Working Knowledge</h4>
+              <ul>
+                <li>SASS</li>
+                <li>OAuth</li>
+                <li>Java</li>
+                <li>Local Auth</li>
+                <li>Socket.io</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+              <h4>Novice</h4>
+                <ul>
+                  <li>Raspberry Pi</li>
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>Swift</li>
+                  <li>Curl</li>
+                </ul>
+              </div>
+          </div>
+        </div>
       </section>
-      <h3>Stories</h3>
-      <h3>Words That Interest Me Right Now</h2>
-        <ul>
-          <li>
-            Panacea
-          </li>
-          <li>
-            Lycra
-          </li>
-        </ul>
-      <h2>Stats</h2>
+      <section class="projects">
+        <h3>Projects</h3>
+
+        <div class="project">
+          <h4>Didgeridone</h4>
+          <img src=" http://placehold.it/200x150"/>
+          <p>A location based task application. Create new tasks, assign them a location, and notifications will appear on your mobile phone when you get close!</p>
+          <br /><a target="_blank" href="http://didgeridone.co">Link</a>
+        </div>
+
+        <div class="project">
+          <h4>Book To Read API</h4>
+          <p>A custom API that returns an award winning Science Fiction Novel!</p>
+          <img src=" http://placehold.it/200x150"/>
+          <br /><a target="_blank" href="http://booktoread.herokuapp.com">Link</a>
+        </div>
+
+        <div class="project">
+          <h4>Dander</h4>
+          <img src=" http://placehold.it/200x150"/>
+          <p>Dander is a dog discovery app that helps you find dogs near your area that are available for adoption. You can curate a list of dog's you are interested in!</p>
+          <br /><a target="_blank" href="http://dander.co">Link</a>
+        </div>
+
+        <div class="project">
+          <h4>Bracketer</h4>
+          <p>A web app to create dynamic brackets for tournaments. This currently functions as a completely front-end application.</p>
+          <img src=" http://placehold.it/200x150"/>
+          <br /><a target="_blank" href="http://bracketer.co">Link</a>
+        </div>
+      </section>
+
+      <section class="interests">
+        
+      </section>
+      <section>
+        <h2>Stats</h2>
+      </section>
     </main>
 
 
