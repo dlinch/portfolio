@@ -50,3 +50,8 @@ a:hover, a:visited:hover {
 .hidden {
   display: none;
 }
+
+.tech {
+  width: 50%;
+  background-color: lightgrey;
+}
