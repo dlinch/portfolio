@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+
+
+/* Body Styling */
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  background: whitesmoke;
+  max-width: 500px;
+  font-size: .85em;
+  padding-top: 0;
+  margin: 0;
+}
+
+
+#topDiv {
+  width:100vw;
+  height: 4px;
+  background-color:rgb(90, 252, 252);
+}
+
+.content {
+  padding-left: 10px;
+}
+
+/* List Styling */
+ul {
+  list-style: inside none;
+  padding-left: 0;
+  padding-top: 10px;
+  /*padding-bottom: 10px;*/
+}
+
+li {
+  padding: 3px;
+}
+
+.construction{
+  color: midnightblue;
+  font-weight: 600;
+}
+
+/* Link Styling */
+a, a:visited {
+  color: #B23A48;
+}
+
+a:hover, a:visited:hover {
+  color: tomato;
+}
+
+.hidden {
+  display: none;
+}
