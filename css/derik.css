@@ -55,3 +55,11 @@ a:hover, a:visited:hover {
   width: 50%;
   background-color: lightgrey;
 }
+
+h4 em, .name {
+  text-decoration: underline;
+}
+
+.contactInfo {
+  font-size: 2em;
+}
